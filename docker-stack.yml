@@ -83,7 +83,7 @@ services:
       mode: global
 
   grafana:
-    image: grafana/grafana:5.4.4
+    image: grafana/grafana
     depends_on:
       - prometheus
     ports:
